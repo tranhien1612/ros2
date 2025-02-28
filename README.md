@@ -36,6 +36,12 @@ my_package/
      src/
 ```
 
+Create pkg and node:
+```
+ros2 pkg create <package_name> --build-type <build-type> --dependencies <dependencies> --node-name <node-name>
+Ex: ros2 pkg create pkg_helloworld_py --build-type ament_python --dependencies rclpy --node-name helloworld
+```
+
 Create package python:
 ```
 ros2 pkg create --build-type ament_python --license Apache-2.0 <package_name>
