@@ -6,6 +6,29 @@ Run file:
 sudo chmod +x install_ros2.sh
 sudo ./install_ros2.sh
 ```
+
+## Try some examples
+In one terminal, source the setup file and then run a C++ talker:
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+In another terminal source the setup file and then run a Python listener:
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_py listener
+```
+## Uninstall
+```
+sudo apt remove ~nros-<rosdistro>-* && sudo apt autoremove
+sudo rm /etc/apt/sources.list.d/ros2.list
+sudo apt update
+sudo apt autoremove
+# Consider upgrading for packages previously shadowed.
+sudo apt upgrade
+```
+
 ## Create workspace
 ```
 mkdir -p ~/ros2_ws/src
