@@ -135,5 +135,9 @@ http://www.yahboom.net/study/ROSMASTER-X3
 https://github.com/Robotisim/robotics_software_engineer
 https://github.com/Robotisim/mobile_robotics_ROS2
 https://github.com/ros-mobile-robots/mobile_robot_description/tree/ros2-foxy
+
+https://github.com/AtsushiSakai/PythonRobotics
+https://github.com/curieuxjy/Awesome_Manipulation
+https://github.com/curieuxjy/Awesome_Quadrupedal_Robots
 ```
 
